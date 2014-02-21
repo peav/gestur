@@ -1,0 +1,79 @@
+/* 
+    Document   : login
+    Created on : 23/11/2012, 04:15:23 PM
+    Author     : Santi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body{
+    background: #01c5f1; /* Old browsers */
+    background: -moz-linear-gradient(left,  #01c5f1 0%, #1179bd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#01c5f1), color-stop(100%,#1179bd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #01c5f1 0%,#1179bd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #01c5f1 0%,#1179bd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #01c5f1 0%,#1179bd 100%); /* IE10+ */
+    background: linear-gradient(to right,  #01c5f1 0%,#1179bd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01c5f1', endColorstr='#1179bd',GradientType=1 ); /* IE6-9 */
+    /*background-repeat: repeat-x;*/
+    height: auto;
+}
+
+div.content{    
+    width:280px; 
+    margin:0 auto;
+    margin-top: 40px;    
+    background-color: #fff;
+    /*border: solid 8px #CCDCE3;*/
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    border: 20px solid rgba(80,80,80,0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    padding: 0px 50px;
+    padding-top: 10px;
+}
+
+div.logo{
+    margin-bottom: 10px;
+    margin-left: -40px;
+    margin-right: -40px;
+    text-align: center;
+
+}
+
+span.logo-text{
+    margin-top: 10px;
+    color: #ABD3DF;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+}
+div.alert{
+    text-align:center;
+}
+div.keep-logged{
+    padding:10px 0; 
+}
+div.keep-logged label{
+    color: #999;
+}
+div.keep-logged input{
+    margin-bottom: 6px;
+}
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.form input
+{
+	height: 30px;
+}
+
+
